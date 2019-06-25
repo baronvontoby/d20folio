@@ -9,11 +9,15 @@ const CharacterSchema = new Schema({
 
     race: {
         type: String,
-        enum: ['Elf', 'Dwarf', 'Human']
+        enum: ['House Elf', 'Dwarf', 'Human']
     },
     class: {
         type: String,
-        enum: ['Warrior', 'Mystic', 'Rogue']
+        enum: ['Wizard', 'Muggle', 'Dark Wizard', 'Aura', 'Order of the Phoenix']
+    },
+    house: {
+        type: String,
+        enum: ['Ravenclaw', 'Hufflepuff', 'Slytherine', 'Gryffindor']
     },
     level: {
         type: Number,
