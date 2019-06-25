@@ -1,18 +1,19 @@
 import React, { Component } from "react";
-import logo from "./d20-folio-logo-1.png";
+import {BrowserRouter, Route} from 'react-router-dom';
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <BrowserRouter>
+        <p>Navbar will go here</p>
+        <Route exact path='/' component={() => <div>Welcome to the Magical World of Harry Potter</div>}></Route>
+        <Route exact path='/mychars' component={() => <div>Hello World</div>}></Route>
+        <Route exact path='/new' component={() => <div>Hello World</div>}></Route>
+        <Route exact path='/edit/:id' component={({match}) => <div>Hello World</div>}></Route>
+          
+        </BrowserRouter>
       </div>
     );
   }
