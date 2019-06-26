@@ -32,7 +32,7 @@ export default class ViewAllCharacters extends React.Component {
                 </Row>
                 <Row>
                     <Col md={12}>
-                        <Container>
+                        <Container className='characters'>
                             {
                                 this.state.characters.map((character,id) => (
                                     <CharacterCard character={character} key={id} />

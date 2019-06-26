@@ -12,6 +12,7 @@ import {
     Row,
     Container
 } from 'reactstrap';
+import { SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS } from 'constants';
 
 export default class EditCharacter extends React.Component {
     state = {
@@ -32,6 +33,10 @@ export default class EditCharacter extends React.Component {
         this.setState( {
             [field]: value
         })
+    }
+
+    clearForm = () => {
+        
     }
 
     submitCharacterCreation = () => {

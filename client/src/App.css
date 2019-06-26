@@ -1,7 +1,9 @@
 .App {
   text-align: center;
   background-image: url('./images/HogwartsCastle_WB_F5_HogwartsCastleIllustration_Illust_080615_Land.jpg');
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App-logo {
