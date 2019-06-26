@@ -1,8 +1,8 @@
 import React from 'react';
 import {Col, Row, Container, Jumbotron} from 'reactstrap';
-import seeds from '../../../charSeeds.json';
 import CharacterCard from '../../CharacterCard';
 import API from '../../../util/API';
+import './ViewAllCharacters.css';
 
 
 export default class ViewAllCharacters extends React.Component {
@@ -32,11 +32,13 @@ export default class ViewAllCharacters extends React.Component {
                 </Row>
                 <Row>
                     <Col md={12}>
-                        {
-                            this.state.characters.map((character,id) => (
-                                <CharacterCard character={character} key={id} />
-                            ))
-                        }
+                        <Container>
+                            {
+                                this.state.characters.map((character,id) => (
+                                    <CharacterCard character={character} key={id} />
+                                    ))
+                            }
+                        </Container>
                     </Col>
                 </Row>
             </Container>
