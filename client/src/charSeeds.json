@@ -1,6 +1,6 @@
 [{
     "name": "Lorenzo D'Andrea",
-    "imageUrl": "https://i.pinimg.com/originals/92/1b/b2/921bb2b9cfaee0fb768cfb08be6f38be.jpg",
+    "imageUrl": "https://cdn.dribbble.com/users/529819/screenshots/6213253/huffle.png",
     "race": "Human",
     "class": "Aura",
     "house": "Hufflepuff",
@@ -15,7 +15,7 @@
 },
 {
     "name": "Harry Potter",
-    "imageUrl": "https://i.pinimg.com/originals/92/1b/b2/921bb2b9cfaee0fb768cfb08be6f38be.jpg",
+    "imageUrl": "https://vignette.wikia.nocookie.net/harrypotter/images/8/8d/PromoHP7_Harry_Potter.jpg/revision/latest/scale-to-width-down/350?cb=20140603201724",
     "race": "Human",
     "class": "Aura",
     "house": "Gryffindor",
@@ -30,10 +30,10 @@
 },
 {
     "name": "Draco Malfoy",
-    "imageUrl": "https://i.pinimg.com/originals/92/1b/b2/921bb2b9cfaee0fb768cfb08be6f38be.jpg",
+    "imageUrl": "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Draco_Malfoy_TDH.png/revision/latest/scale-to-width-down/350?cb=20180116013508",
     "race": "Human",
     "class": "Dark Wizard",
-    "house": "Slytherine",
+    "house": "Slytherin",
     "level": 1,
     "STR": 8,
     "DEX": 14,

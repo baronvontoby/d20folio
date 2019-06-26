@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 // Save a reference to the Schema constructor
 var Schema = mongoose.Schema;
 
-const CharacterSchema = new Schema({
+    const CharacterSchema = new Schema({
     name: String,
     imageUrl: String,
 
@@ -17,7 +17,7 @@ const CharacterSchema = new Schema({
     },
     house: {
         type: String,
-        enum: ['Ravenclaw', 'Hufflepuff', 'Slytherine', 'Gryffindor']
+        enum: ['Ravenclaw', 'Hufflepuff', 'Slytherin', 'Gryffindor']
     },
     level: {
         type: Number,
